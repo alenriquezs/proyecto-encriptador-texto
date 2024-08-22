@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador AluraONE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/icono.png">
 </head>
 <body>
     <header>
 
     </header>
     <main>
+        <img class="logo" src="assets/logo-alura.png" alt="Logo Alura">
         <h1 class="titulo">Encriptador de texto</h1>
         <div class="contenido">
             <section class="area-input">
-                <textarea class="txt-ingresado" cols="30" rows="20" placeholder="Escriba el texto..."></textarea>
+                <p class="mensaje">Solo letras minúsculas y sin acentos</p>
+                <textarea class="txt-ingresado" cols="30" rows="20" placeholder="Escriba el texto..." autofocus></textarea>
                 <div class="area-botones">
                     <button class="btn-encriptar">Encriptar</button>
                     <button class="btn-desencriptar">Desencriptar</button>
@@ -29,7 +32,8 @@
         </div>
     </main>
     <footer>
-        <p>Desarrollado por <a href="https://www.github.com/alenriquezs">Alfonso Enriquez</a></p>
+        <p class="creditos">Desarrollado por <a href="https://www.github.com/alenriquezs">Alfonso Enriquez</a></p>
     </footer>
 </body>
+<script src="script.js"></script>
 </html>
