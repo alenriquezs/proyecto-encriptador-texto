@@ -1,4 +1,4 @@
-## Descrpción del Proyecto
+## Descripción del Proyecto
 
 Es la resolución del **Challenge - Encriptador de Texto** utilizando **HTML5**, **CSS** y **JavaScript**. Reto de la formación **Oracle Next Education (ONE)** de **Oracle + Alura LATAM**.
 

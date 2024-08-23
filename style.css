@@ -9,7 +9,7 @@
     font-weight: 400;
     font-size: 18px;
     background-color: #E5E5E5;
-    line-height: 140%;
+    line-height: 125%;
 }
 
 .logo {
@@ -38,6 +38,7 @@
     padding: 20px;
     width: 70%;
     border: none;
+    resize: none;
     border-radius: 24px;
 }
 
@@ -47,10 +48,12 @@
 
 .txt-ingresado {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+    resize: none;
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .txt-ingresado:focus {
@@ -61,7 +64,7 @@
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    gap: 10px;
+    gap: 30px;
 }
 
 .btn-encriptar {
@@ -74,6 +77,11 @@
     cursor: pointer;
 }
 
+.btn-encriptar:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+}
+
 .btn-desencriptar {
     width: 15%;
     padding: 10px;
@@ -81,6 +89,12 @@
     border: 1px solid;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.btn-desencriptar:hover {
+    transform: scale(1.05);
+    background-color: #f1f1f1;
+    transition: transform 0.2s;
 }
 
 .area-resultado {
@@ -91,13 +105,15 @@
 
 .txt-resultado {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     margin-top: 30px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 18px;
     outline: none;
     background-color: white;
+    resize: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .area-btn-copiar {
@@ -113,6 +129,12 @@
     border: 1px solid;
     border-radius: 20px;
     cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-copiar:hover {
+    background-color: #d7d9f6;
+    transform: scale(1.05);
 }
 
 footer {
@@ -120,4 +142,20 @@ footer {
     margin-top: 20px;
     padding: 20px;
     font-size: 14px;
+}
+
+.creditos {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.creditos a {
+    font-size: 16px;
+    color: #0a3871;
+    text-decoration: none;
+}
+
+.creditos a:hover {
+    text-decoration: underline;
 }
