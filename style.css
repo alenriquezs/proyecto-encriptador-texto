@@ -9,7 +9,7 @@
     font-weight: 400;
     font-size: 18px;
     background-color: #E5E5E5;
-    line-height: 125%;
+    /* line-height: 110%; */
 }
 
 .logo {
@@ -42,8 +42,31 @@
     border-radius: 24px;
 }
 
+.area-informacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+}
+
 .mensaje {
-    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.btn-limpiar {
+    width: 15%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-limpiar:hover {
+    background-color: #d7d9f6;
+    transform: scale(1.05);
 }
 
 .txt-ingresado {
@@ -106,7 +129,7 @@
 .txt-resultado {
     width: 100%;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: 60px;
     border: 1px solid #ccc;
     border-radius: 20px;
     font-size: 18px;
@@ -114,6 +137,10 @@
     background-color: white;
     resize: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.txt-resultado:hover {
+    cursor: text;
 }
 
 .area-btn-copiar {

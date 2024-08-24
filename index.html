@@ -16,17 +16,20 @@
         <h1 class="titulo">Encriptador de texto</h1>
         <div class="contenido">
             <section class="area-input">
-                <p class="mensaje">Solo letras minúsculas y sin acentos</p>
-                <textarea class="txt-ingresado" cols="30" rows="20" placeholder="Escriba aqui el texto..." autofocus></textarea>
+                <div class="area-informacion">
+                    <p class="mensaje">Solo letras minúsculas y sin acentos</p>
+                    <button id="btn-limpiar" type="button" class="btn-limpiar">Limpiar</button>
+                </div>
+                <textarea id="txt-ingresado" class="txt-ingresado" cols="30" rows="20" placeholder="Escriba aqui el texto..." required autofocus></textarea>
                 <div class="area-botones">
-                    <button class="btn-encriptar">Encriptar</button>
-                    <button class="btn-desencriptar">Desencriptar</button>
+                    <button id="btn-encriptar" type="button" class="btn-encriptar">Encriptar</button>
+                    <button id="btn-desencriptar" type="button" class="btn-desencriptar">Desencriptar</button>
                 </div>
             </section>
             <section class="area-resultado">
-                <textarea class="txt-resultado" cols="30" rows="20" placeholder="Texto encriptado"></textarea>
+                <textarea id="txt-resultado" class="txt-resultado" cols="30" rows="20" placeholder="Texto encriptado" disabled></textarea>
                 <div class="area-btn-copiar">
-                    <button class="btn-copiar">Copiar Texto</button>
+                    <button id="btn-copiar" type="button" class="btn-copiar">Copiar Texto</button>
                 </div>
             </section>
         </div>
